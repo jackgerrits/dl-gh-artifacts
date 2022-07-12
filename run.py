@@ -35,7 +35,7 @@ def get_artifacts_for_run(
 
 
 if __name__ == "__main__":
-    DEFAULT_WORKFLOWS = "build_python_wheels.yml,build_python_wheels_aarch64.yml,build_python_wheels_macos.yml,build_python_wheels_windows.yml"
+    DEFAULT_WORKFLOWS = "python_wheels.yml"
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
